@@ -3,11 +3,6 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>Анар</title>
   <style type="text/css">
-   H1 { 
-    font-size: 120%; /* Размер шрифта */
-    font-family: Verdana, Arial, Helvetica, sans-serif; /* Семейство шрифта */
-    color: #336; /* Цвет текста */
-   }
    audio {
   display: none;
 }
@@ -15,7 +10,7 @@
   
    <script type="text/javascript"> 
 var audio = $("#sound")[0];
-$("#container").mousedown(function() {
+$("#anar").mouseenter(function() {
   audio.play();
 }).mouseleave(function() {
   audio.pause();
@@ -23,10 +18,8 @@ $("#container").mousedown(function() {
    </script>
  </head>
  
- <body> 
-  <div id="container">
+ <body>
    <img id="anar" src="https://pp.userapi.com/c830209/v830209401/17e6f9/cH17GcC8o8k.jpg" width="100%" alt="гей или чсв?">
-    </div>
    <audio id="sound" src="https://psv4.userapi.com/c852536//u16891230/audiomsg/d6/c5f2c5f88e.mp3" preload="auto" controls></audio>
  </body>
 </html>
