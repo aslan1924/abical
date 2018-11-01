@@ -8,11 +8,14 @@
     font-family: Verdana, Arial, Helvetica, sans-serif; /* Семейство шрифта */
     color: #336; /* Цвет текста */
    }
+   audio {
+  display: none;
+}
   </style>
   
    <script type="text/javascript"> 
 var audio = $("#sound")[0];
-$("#anar").mouseenter(function() {
+$("#container").mousedown(function() {
   audio.play();
 }).mouseleave(function() {
   audio.pause();
@@ -21,7 +24,9 @@ $("#anar").mouseenter(function() {
  </head>
  
  <body> 
+  <div id="container">
    <img id="anar" src="https://pp.userapi.com/c830209/v830209401/17e6f9/cH17GcC8o8k.jpg" width="100%" alt="гей или чсв?">
+    </div>
    <audio id="sound" src="https://psv4.userapi.com/c852536//u16891230/audiomsg/d6/c5f2c5f88e.mp3" preload="auto" controls></audio>
  </body>
 </html>
