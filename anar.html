@@ -2,20 +2,24 @@
  <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>Анар</title>
-  <style type="text/css">
-   audio {
-  display: none;
-}
-  </style>
-  
-   <script type="text/javascript"> 
+<script type="text/javascript"> 
+ function muzlo() {
 var audio = $("#sound")[0];
 $("#anar").mouseenter(function() {
   audio.play();
 }).mouseleave(function() {
   audio.pause();
 });
+ }
    </script>
+  
+  <style type="text/css">
+   audio {
+  display: none;
+}
+  </style>
+  
+
  </head>
  
  <body>
